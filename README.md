@@ -11,4 +11,4 @@ Para la creacion de este sistema operativo se utiliza Yocto Project, el cual nos
 2) utilizamos el bitbake: bitbake core-image-base  // con core-image-base obtendriamos diferentes aspectos basicos necesarios para nuestra apllicacion (conexion a internet por ejemplo)
 3) Para la creacion de la imagen iso se utiliza el comando "wic create mkhybridiso -e core-image-base". Igualmente se necesitan realizar ciertos cambios al archivo local.conf.
 
-Lo mencionado anteriormente es un resumen de los pasos mas importantes, para mayor entendimiento consultar a los manuales de PBRT.
+Lo mencionado anteriormente es un resumen de los pasos mas importantes, para mayor entendimiento consultar a los manuales de Yocto Project.
